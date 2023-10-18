@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://res.cloudinary.com/dffa46c5u/image/upload/v1688627398/pawel-czerwinski-1RCFUWd4HJU-unsplash_xkt0tw.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.navbar-image {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.row {
+    width: 100%;
+    padding: 0px 80px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.navbar h1 {
+    color: rgb(41, 150, 41);
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    padding: 10px 18px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+
+}
+
+.navbar ul li a:hover {
+    background-color: #5d88d5;
+}
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.content h1 span {
+    font-size: 40px;
+    color: rgb(145, 87, 87);
+    font-weight: 400;
+
+
+}
+
+.content h1 span:hover {
+    font-size: 45px;
+    color: chocolate;
+}
+
+.content p {
+    font-size: 16px;
+    color: rgb(41, 150, 41);
+    margin-top: 10px;
+}
+
+.content a {
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 19px;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    background-color: #5d88d5;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+
+.content a:hover {
+    background-color: #2d88d5;
+    color: chocolate;
+}
